@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82820BEA1EAE9ED500798119 /* ScoreHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82820BE91EAE9ED500798119 /* ScoreHistoryViewController.swift */; };
+		82EB75911EAE663A00510B8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB75901EAE663A00510B8C /* AppDelegate.swift */; };
+		82EB75931EAE663A00510B8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB75921EAE663A00510B8C /* ViewController.swift */; };
+		82EB75961EAE663A00510B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EB75941EAE663A00510B8C /* Main.storyboard */; };
+		82EB75981EAE663A00510B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EB75971EAE663A00510B8C /* Assets.xcassets */; };
+		82EB759B1EAE663A00510B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EB75991EAE663A00510B8C /* LaunchScreen.storyboard */; };
+		82EB75A61EAE663B00510B8C /* GridironAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB75A51EAE663B00510B8C /* GridironAppTests.swift */; };
+		82EB75B11EAE67E800510B8C /* ScorekeeperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB75B01EAE67E800510B8C /* ScorekeeperViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82EB75A21EAE663B00510B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82EB75851EAE663A00510B8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EB758C1EAE663A00510B8C;
+			remoteInfo = GridironApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82820BE91EAE9ED500798119 /* ScoreHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreHistoryViewController.swift; sourceTree = "<group>"; };
+		82EB758D1EAE663A00510B8C /* GridironApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridironApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EB75901EAE663A00510B8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82EB75921EAE663A00510B8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82EB75951EAE663A00510B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82EB75971EAE663A00510B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82EB759A1EAE663A00510B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82EB759C1EAE663A00510B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EB75A11EAE663B00510B8C /* GridironAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridironAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EB75A51EAE663B00510B8C /* GridironAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridironAppTests.swift; sourceTree = "<group>"; };
+		82EB75A71EAE663B00510B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EB75B01EAE67E800510B8C /* ScorekeeperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorekeeperViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EB758A1EAE663A00510B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB759E1EAE663B00510B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EB75841EAE663A00510B8C = {
+			isa = PBXGroup;
+			children = (
+				82EB758F1EAE663A00510B8C /* GridironApp */,
+				82EB75A41EAE663B00510B8C /* GridironAppTests */,
+				82EB758E1EAE663A00510B8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EB758E1EAE663A00510B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EB758D1EAE663A00510B8C /* GridironApp.app */,
+				82EB75A11EAE663B00510B8C /* GridironAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EB758F1EAE663A00510B8C /* GridironApp */ = {
+			isa = PBXGroup;
+			children = (
+				82EB75901EAE663A00510B8C /* AppDelegate.swift */,
+				82EB75921EAE663A00510B8C /* ViewController.swift */,
+				82EB75B01EAE67E800510B8C /* ScorekeeperViewController.swift */,
+				82820BE91EAE9ED500798119 /* ScoreHistoryViewController.swift */,
+				82EB75941EAE663A00510B8C /* Main.storyboard */,
+				82EB75971EAE663A00510B8C /* Assets.xcassets */,
+				82EB75991EAE663A00510B8C /* LaunchScreen.storyboard */,
+				82EB759C1EAE663A00510B8C /* Info.plist */,
+			);
+			path = GridironApp;
+			sourceTree = "<group>";
+		};
+		82EB75A41EAE663B00510B8C /* GridironAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				82EB75A51EAE663B00510B8C /* GridironAppTests.swift */,
+				82EB75A71EAE663B00510B8C /* Info.plist */,
+			);
+			path = GridironAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EB758C1EAE663A00510B8C /* GridironApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EB75AA1EAE663B00510B8C /* Build configuration list for PBXNativeTarget "GridironApp" */;
+			buildPhases = (
+				82EB75891EAE663A00510B8C /* Sources */,
+				82EB758A1EAE663A00510B8C /* Frameworks */,
+				82EB758B1EAE663A00510B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridironApp;
+			productName = GridironApp;
+			productReference = 82EB758D1EAE663A00510B8C /* GridironApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82EB75A01EAE663B00510B8C /* GridironAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EB75AD1EAE663B00510B8C /* Build configuration list for PBXNativeTarget "GridironAppTests" */;
+			buildPhases = (
+				82EB759D1EAE663B00510B8C /* Sources */,
+				82EB759E1EAE663B00510B8C /* Frameworks */,
+				82EB759F1EAE663B00510B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EB75A31EAE663B00510B8C /* PBXTargetDependency */,
+			);
+			name = GridironAppTests;
+			productName = GridironAppTests;
+			productReference = 82EB75A11EAE663B00510B8C /* GridironAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EB75851EAE663A00510B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Crystal Jade Allen-Washington";
+				TargetAttributes = {
+					82EB758C1EAE663A00510B8C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					82EB75A01EAE663B00510B8C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82EB758C1EAE663A00510B8C;
+					};
+				};
+			};
+			buildConfigurationList = 82EB75881EAE663A00510B8C /* Build configuration list for PBXProject "GridironApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82EB75841EAE663A00510B8C;
+			productRefGroup = 82EB758E1EAE663A00510B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EB758C1EAE663A00510B8C /* GridironApp */,
+				82EB75A01EAE663B00510B8C /* GridironAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EB758B1EAE663A00510B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB759B1EAE663A00510B8C /* LaunchScreen.storyboard in Resources */,
+				82EB75981EAE663A00510B8C /* Assets.xcassets in Resources */,
+				82EB75961EAE663A00510B8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB759F1EAE663B00510B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EB75891EAE663A00510B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82820BEA1EAE9ED500798119 /* ScoreHistoryViewController.swift in Sources */,
+				82EB75931EAE663A00510B8C /* ViewController.swift in Sources */,
+				82EB75911EAE663A00510B8C /* AppDelegate.swift in Sources */,
+				82EB75B11EAE67E800510B8C /* ScorekeeperViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB759D1EAE663B00510B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB75A61EAE663B00510B8C /* GridironAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82EB75A31EAE663B00510B8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82EB758C1EAE663A00510B8C /* GridironApp */;
+			targetProxy = 82EB75A21EAE663B00510B8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82EB75941EAE663A00510B8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EB75951EAE663A00510B8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82EB75991EAE663A00510B8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EB759A1EAE663A00510B8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82EB75A81EAE663B00510B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82EB75A91EAE663B00510B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82EB75AB1EAE663B00510B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GridironApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeahhhhbaby.GridironApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		82EB75AC1EAE663B00510B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GridironApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeahhhhbaby.GridironApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		82EB75AE1EAE663B00510B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GridironAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeahhhhbaby.GridironAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridironApp.app/GridironApp";
+			};
+			name = Debug;
+		};
+		82EB75AF1EAE663B00510B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GridironAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeahhhhbaby.GridironAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridironApp.app/GridironApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EB75881EAE663A00510B8C /* Build configuration list for PBXProject "GridironApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB75A81EAE663B00510B8C /* Debug */,
+				82EB75A91EAE663B00510B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EB75AA1EAE663B00510B8C /* Build configuration list for PBXNativeTarget "GridironApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB75AB1EAE663B00510B8C /* Debug */,
+				82EB75AC1EAE663B00510B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EB75AD1EAE663B00510B8C /* Build configuration list for PBXNativeTarget "GridironAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB75AE1EAE663B00510B8C /* Debug */,
+				82EB75AF1EAE663B00510B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82EB75851EAE663A00510B8C /* Project object */;
+}
